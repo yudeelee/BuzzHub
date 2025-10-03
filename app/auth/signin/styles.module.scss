@@ -10,9 +10,10 @@
 .loginWrapper {
   width: 935px;
   height: 760px;
-  background: url("/img/loginBack.png");
+  background: url("/img/loginBack-min.png");
   background-position: center center;
-  //   background-attachment: fixed;
+  will-change: transform;
+  transform: translateZ(0);
   display: flex;
   flex-direction: column;
   align-items: center;

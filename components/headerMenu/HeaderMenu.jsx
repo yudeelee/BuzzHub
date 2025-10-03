@@ -37,7 +37,7 @@ export default function HeaderMenu() {
     <header className={styles.header}>
       <div className={styles.logo}>
         <Link href="/">
-          <img src="/logo.png" alt="" />
+          <img src="/img/logo-min.png" alt="" />
         </Link>
       </div>
 
